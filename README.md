@@ -1,6 +1,6 @@
 ## ENSIME URISyntaxException
 
-ENSIME has an `URISyntaxException` on a JAR that has the file ````type`.class```, which prevents indexing from finishing.
+ENSIME has an `URISyntaxException` on a JAR that has the file \`type\`.class, which prevents indexing from finishing.
 - `sbt ensimeServerIndex` doesn't detect when it's done, turning 'Suspended' after a few minutes.
 - `ensime-sublime` won't give completions (on e.g. `"Hello".`), but will output compiler errors.
 
