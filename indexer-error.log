@@ -1,0 +1,116 @@
+PS D:\Desktop\Projects\home\ide\ensime-url-test> sbt
+
+D:\Desktop\Projects\home\ide\ensime-url-test>java -jar "D:\Programs\sbt\bin\sbt-launch.jar"
+[info] Loading project definition from D:\Desktop\Projects\home\ide\ensime-url-test\project
+[info] Set current project to ensime-url-test (in build file:/D:/Desktop/Projects/home/ide/ensime-url-test/)
+> ensimeConfig
+[info] ENSIME update.
+[info] ENSIME processing ensime-url-test (ensime-url-test)
+> ensimeServerIndex
+[info] Running org.ensime.server.Server
+[info] 20:38:29.167 INFO  None a.e.s.Slf4jLogger - Slf4jLogger started
+[info] 20:38:29.182 DEBUG EventStream(akka://ENSIME) a.e.EventStream - logger log1-Slf4jLogger started
+[info] 20:38:29.182 DEBUG EventStream(akka://ENSIME) a.e.EventStream - Default Loggers started
+[info] 20:38:29.229 INFO  None o.a.c.v.i.StandardFileSystemManager - Using "C:\Users\Jack\AppData\Local\Temp\vfs_cache" as temporary files store.
+[info] 20:38:29.432 DEBUG akka://ENSIME/system/IO-TCP/selectors/$a/0 a.i.TcpListener - Successfully bound to /127.0.0.1:52496
+[info] 20:38:29.479 INFO  akka://ENSIME/user/ensime-main/tcp-server o.e.s.t.TCPServer - Bound server on port 52496
+[info] 20:38:29.495 INFO  None o.e.s.PortUtil$ - creating port file: D:\Desktop\Projects\home\ide\ensime-url-test\.ensime_cache\port
+[info] 20:38:29.776 INFO  akka://ENSIME/user/ensime-main o.e.s.ServerActor - Environment:
+[info] 20:38:29.776 INFO  akka://ENSIME/user/ensime-main o.e.s.ServerActor -   OS : Windows 10
+[info] 20:38:29.776 INFO  akka://ENSIME/user/ensime-main o.e.s.ServerActor -   Java : Java HotSpot(TM) 64-Bit Server VM 25.131-b11, Java(TM) SE Runtime Environment 1.8.0_131-b11
+[info] 20:38:29.776 INFO  akka://ENSIME/user/ensime-main o.e.s.ServerActor -   Scala version: version 2.12.3
+[info] 20:38:29.776 INFO  akka://ENSIME/user/ensime-main o.e.s.ServerActor -   Ensime : 2.0.0-M4
+[info] 20:38:29.776 INFO  akka://ENSIME/user/ensime-main o.e.s.ServerActor -   Heap Size : 3817865216
+[info] 20:38:29.776 INFO  akka://ENSIME/user/ensime-main o.e.s.ServerActor -   Built with Scala version: 2.12.3
+[info] 20:38:29.792 INFO  akka://ENSIME/user/ensime-main o.e.s.ServerActor -   Built with sbt version: 0.13.16
+[info] 20:38:29.792 INFO  akka://ENSIME/user/ensime-main o.e.s.ServerActor -   Built from git sha: 5feac869e98bd97613191e6bd4d95bfcb15648be
+[info] 20:38:29.792 INFO  akka://ENSIME/user/ensime-main o.e.s.ServerActor -   Built on: 2017-08-04
+[info] 20:38:29.807 INFO  akka://ENSIME/user/ensime-main o.e.s.ServerActor - ENSIME HTTP on /127.0.0.1:52513
+[info] 20:38:29.823 INFO  None o.e.s.PortUtil$ - creating port file: D:\Desktop\Projects\home\ide\ensime-url-test\.ensime_cache\http
+[info] 20:38:30.323 INFO  None o.e.i.g.GraphService - creating the graph database...
+[info] 20:38:31.140 INFO  None c.o.o.c.e.OMemoryAndLocalPaginatedEnginesInitializer - OrientDB auto-config DISKCACHE=3,641MB (heap=3,641MB direct=3,641MB os=8,076MB), assuming maximum direct memory size equals to maximum JVM heap size
+[info] 20:38:31.140 WARN  None c.o.c.u.OMemory - MaxDirectMemorySize JVM option is not set or has invalid value, that may cause out of memory errors. Please set the -XX:MaxDirectMemorySize=8076m option when you start the JVM.
+[info] 20:38:50.608 INFO  None o.e.i.g.GraphService - ... created the graph database
+[info] 20:38:50.655 DEBUG None o.e.f.FileWatchService - init watcher
+[info] 20:38:50.655 DEBUG None o.e.f.FileWatchService - start a background monitoring thread
+[info] 20:38:50.655 DEBUG None o.e.f.FileWatchService - init watcher
+[info] 20:38:50.655 DEBUG None o.e.f.FileWatchService - start a background monitoring thread
+[info] 20:38:50.655 DEBUG None o.e.f.FileWatchService - start monitoring WatchService events
+[info] 20:38:50.655 DEBUG None o.e.f.FileWatchService - start monitoring WatchService events
+[info] 20:38:50.717 DEBUG None o.e.i.SearchService - findStaleFileChecks
+[info] 20:38:50.717 DEBUG None o.e.i.SearchService - removing 0 stale files from the index
+[info] 20:38:50.811 DEBUG None o.e.i.SearchService - Indexing bases...
+[info] 20:38:50.842 DEBUG None o.e.i.SearchService - indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.jar
+[info] 20:38:50.858 DEBUG None o.e.i.SearchService - indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-web_sjs0.6_2.12/0.1.1/slinky-web_sjs0.6_2.12-0.1.1.jar
+[info] 20:38:53.483 DEBUG None o.e.i.SearchService - indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.20/scalajs-library_2.12-0.6.20.jar
+[info] 20:38:53.499 DEBUG None o.e.i.SearchService - finished indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-web_sjs0.6_2.12/0.1.1/slinky-web_sjs0.6_2.12-0.1.1.jar
+[info] 20:38:54.889 DEBUG akka://ENSIME/user/ensime-main/project/scalac/$a o.e.c.Analyzer - received handled message FullTypeCheckCompleteEvent from Actor[akka://ENSIME/deadLetters] in state startup
+[info] 20:38:56.436 DEBUG None o.e.i.SearchService - indexing file:///C:/Program Files/Java/jdk/jre/lib/rt.jar
+[info] 20:39:01.014 DEBUG None o.e.i.SearchService - finished indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.20/scalajs-library_2.12-0.6.20.jar
+[info] 20:39:02.780 DEBUG None o.e.i.SearchService - indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.1/scalajs-dom_sjs0.6_2.12-0.9.1.jar
+[info] 20:39:10.985 DEBUG None o.e.i.SearchService - indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.20/scalajs-test-interface_2.12-0.6.20.jar
+[info] 20:39:11.774 DEBUG None o.e.i.SearchService - indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-core_sjs0.6_2.12/0.1.1/slinky-core_sjs0.6_2.12-0.1.1.jar
+[info] 20:39:12.746 DEBUG None o.e.i.SearchService - indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.jar
+[info] 20:39:15.976 DEBUG None o.e.i.SearchService - finished indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.jar
+[info] 20:39:15.976 WARN  akka://ENSIME/user/ensime-main/project o.e.c.Project - Refresh failed: java.lang.IllegalArgumentException: Illegal character in opaque part at index 180: jar:file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-web_sjs0.6_2.12/0.1.1/slinky-web_sjs0.6_2.12-0.1.1-sources.j
+[info] 20:39:15.991 ERROR akka.dispatch.Dispatcher a.d.Dispatcher - Illegal character in opaque part at index 180: jar:file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-web_sjs0.6_2.12/0.1.1/slinky-web_sjs0.6_2.12-0.1.1-sources.jar!/me/shadaj/slinky/web/svg/`type`.scala
+[info] java.lang.IllegalArgumentException: Illegal character in opaque part at index 180: jar:file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-web_sjs0.6_2.12/0.1.1/slinky-web_sjs0.6_2.12-0.1.1-sources.jar!/me/shadaj/slinky/web/svg/`type`.scala
+[info]  at java.net.URI.create(URI.java:852)
+[info]  at org.ensime.util.ensimefile.package$RichArchiveFile.uri(ensimefile.scala:84)
+[info]  at org.ensime.util.fileobject.package$RichFileName$.uri$extension(fileobject.scala:36)
+[info]  at org.ensime.util.fileobject.package$RichFileName$.uriString$extension(fileobject.scala:37)
+[info]  at org.ensime.util.fileobject.package$RichFileObject$.uriString$extension(fileobject.scala:29)
+[info]  at org.ensime.indexer.SearchService.$anonfun$extractSymbols$4(SearchService.scala:270)
+[info]  at scala.Option.map(Option.scala:146)
+[info]  at org.ensime.indexer.SearchService.$anonfun$extractSymbols$1(SearchService.scala:270)
+[info]  at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+[info]  at scala.collection.mutable.HashSet.foreach(HashSet.scala:78)
+[info]  at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+[info]  at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+[info]  at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+[info]  at org.ensime.indexer.SearchService.extractSymbols(SearchService.scala:311)
+[info]  at org.ensime.indexer.SearchService.$anonfun$extractSymbolsFromClassOrJar$4(SearchService.scala:235)
+[info]  at scala.collection.TraversableLike.$anonfun$flatMap$1(TraversableLike.scala:241)
+[info]  at scala.collection.mutable.HashMap.$anonfun$foreach$1(HashMap.scala:138)
+[info]  at scala.collection.mutable.HashTable.foreachEntry(HashTable.scala:236)
+[info]  at scala.collection.mutable.HashTable.foreachEntry$(HashTable.scala:229)
+[info]  at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:40)
+[info]  at scala.collection.mutable.HashMap.foreach(HashMap.scala:138)
+[info]  at scala.collection.TraversableLike.flatMap(TraversableLike.scala:241)
+[info]  at scala.collection.TraversableLike.flatMap$(TraversableLike.scala:238)
+[info]  at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+[info]  at org.ensime.indexer.SearchService.$anonfun$extractSymbolsFromClassOrJar$2(SearchService.scala:235)
+[info]  at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+[info]  at akka.dispatch.BatchingExecutor$BlockableBatch.blockOn(BatchingExecutor.scala:106)
+[info]  at scala.concurrent.package$.blocking(package.scala:142)
+[info]  at org.ensime.indexer.SearchService.$anonfun$extractSymbolsFromClassOrJar$1(SearchService.scala:226)
+[info]  at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:653)
+[info]  at scala.util.Success.$anonfun$map$1(Try.scala:251)
+[info]  at scala.util.Success.map(Try.scala:209)
+[info]  at scala.concurrent.Future.$anonfun$map$1(Future.scala:287)
+[info]  at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+[info]  at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+[info]  at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+[info]  at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+[info]  at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+[info]  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+[info]  at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+[info]  at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+[info]  at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:38)
+[info]  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[info]  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[info]  at java.lang.Thread.run(Thread.java:748)
+[info] Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 180: jar:file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-web_sjs0.6_2.12/0.1.1/slinky-web_sjs0.6_2.12-0.1.1-sources.jar!/me/shadaj/slinky/web/svg/`type`.scala
+[info]  at java.net.URI$Parser.fail(URI.java:2848)
+[info]  at java.net.URI$Parser.checkChars(URI.java:3021)
+[info]  at java.net.URI$Parser.parse(URI.java:3058)
+[info]  at java.net.URI.<init>(URI.java:588)
+[info]  at java.net.URI.create(URI.java:850)
+[info]  ... 44 common frames omitted
+[info] 20:39:21.109 DEBUG None o.e.i.SearchService - finished indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.1/scalajs-dom_sjs0.6_2.12-0.9.1.jar
+[info] 20:39:21.640 DEBUG None o.e.i.SearchService - finished indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.20/scalajs-test-interface_2.12-0.6.20.jar
+[info] 20:39:22.010 DEBUG None o.e.i.SearchService - finished indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/me/shadaj/slinky-core_sjs0.6_2.12/0.1.1/slinky-core_sjs0.6_2.12-0.1.1.jar
+[info] 20:39:35.710 DEBUG None o.e.i.SearchService - finished indexing file:///C:/Users/Jack/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.jar
+[info] 20:39:48.178 DEBUG None o.e.i.SearchService - finished indexing file:///C:/Program Files/Java/jdk/jre/lib/rt.jar
+[info] 20:43:54.857 DEBUG akka://ENSIME/user/ensime-main/project/scalac/$a o.e.c.Analyzer - received handled message SuspendAnalyzer from Actor[akka://ENSIME/user/ensime-main/project/scalac/$a#-567389835] in state ready
+
